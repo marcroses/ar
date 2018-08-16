@@ -2,10 +2,31 @@
   "name": "com.ezartech.ezar.videooverlay",
   "version": "1.0.3",
   "description": "ezAR VideoOverlay Cordova Plugin. Just to be available from npmjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "cordova": {
+    "id": "com.ezartech.ezar.videooverlay",
+    "platforms": [
+      "android"
+    ]
   },
-  "author": "Tibor Sulyok <nrgie11@gmail.com> (http://yoursite.com)",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcroses/ar.git"
+  },
+  "keywords": [
+    "cordova",
+    "VideoOverlay",
+    "AR"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "EZARTECH",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/marcroses/ar/issues"
+  },
+  "homepage": "https://github.com/marcroses/ar#readme"
 }
